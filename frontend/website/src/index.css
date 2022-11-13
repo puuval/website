@@ -1,0 +1,46 @@
+/*
+.CSS FILE FOR INDEX.JS
+ANIMATES THE BACKGROUND TO CHANGE COLOURS
+*/
+
+@font-face {
+  font-family: "SIMPLIFICA";
+  src: local("SIMPLIFICA"),
+   url("./fonts/SIMPLIFICA.ttf") format("truetype");
+  font-weight: bold;
+  }
+
+  @font-face {
+    font-family: "SIMPLIFICA-2";
+    src: local("SIMPLIFICA-2"),
+     url("./fonts/SIMPLIFICA.ttf") format("truetype");
+    font-weight: italic;
+    }
+
+    @font-face {
+      font-family: "SIMPLIFICA-3";
+      src: local("SIMPLIFICA-3"),
+       url("./fonts/SIMPLIFICA.ttf") format("truetype");
+      font-weight: bold;
+      }
+
+body {
+  background: linear-gradient(
+  to right, #051724,
+  #041724, #041825
+  );
+  background-size: 400% 400%;
+  animation: animate-background 40s infinite ease-in-out;
+}
+
+@keyframes animate-background {
+  0% {
+      background-position: 0 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0 50%;
+  }
+}

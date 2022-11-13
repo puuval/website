@@ -1,0 +1,73 @@
+/*
+.CSS FILE FOR APP.JS
+USED TO THEME THE COMPONENTS USED
+*/
+
+#mainContainer{
+  align-items: center;
+}
+
+h1 {
+  font-family: 'SIMPLIFICA';
+  font-size: 250px;
+  color: #d8d8d8;
+}
+
+h2 {
+  font-family: 'SIMPLIFICA';
+  font-size: 110px;
+  color: #d8d8d8;
+}
+
+h4 {
+  font-family: 'SIMPLIFICA-2';
+  font-size: 100px;
+  color: #d8d8d8;
+}
+
+h5 {
+  font-family: 'SIMPLIFICA-3';
+  font-size: 100px;
+  color: #d8d8d8;
+}
+
+
+#header1 {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 0em;
+  margin-top: 0em;
+}
+
+#header2 {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 0em;
+  margin-top: -19em;
+}
+
+#headerUnix {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 0px;
+  margin-top: -10em;
+}
+
+#time {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 0px;
+  margin-top: -19em;
+}
