@@ -1,2 +1,1 @@
-Backend not in use (unix-time generated in frontend)
-Website work in progress
+Website work in progress -> version v1.0.0 released 29.6.23
