@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "SIMPLIFICA";
+    src: local("SIMPLIFICA"),
+     url("./../fonts/SIMPLIFICA.ttf") format("truetype");
+    font-weight: bold;
+    }
+  
+    @font-face {
+      font-family: "SIMPLIFICA-2";
+      src: local("SIMPLIFICA-2"),
+       url("./../fonts/SIMPLIFICA.ttf") format("truetype");
+      font-weight: italic;
+      }

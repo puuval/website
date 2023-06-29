@@ -1,0 +1,98 @@
+  #textcont-background {
+    background: linear-gradient(
+      to bottom, #10041c,
+      #220e27, #10041c
+    );
+    animation: animate-background 40s infinite ease-in-out;
+    min-height: 100vh;
+    width: 100%;
+    overflow: auto;
+    }
+  
+  #textcont-container {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 70px;
+  }
+  
+  #textcont-title {
+    color: #d8d8d8;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "SIMPLIFICA-2";
+  }
+
+  #textcont-sub-title {
+    color: #d8d8d8;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "SIMPLIFICA-2";
+  }
+  
+  #textcont-content {
+    color: #d8d8d8;
+    font-size: 27.5px;
+    font-weight: 500;
+    font-family: "SIMPLIFICA"
+  }
+  
+  .animation, .animation_layer {
+    height: 1000px;
+  }
+  
+  .animation {
+    display: block;
+      position: relative;
+      z-index: 10;
+  }
+  
+  .animation_layer {
+    background-position: bottom center;
+    background-size: auto 1038px;
+    background-repeat: repeat-x;
+    width: 100%;
+    overflow: auto;
+    position: absolute;
+  }
+
+  .animation_layer.parallax {
+    position: fixed;
+  }
+
+  #background {
+    background: linear-gradient(to bottom, transparent, #10041c), url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #logo {
+    background-image: url(../images/logo.png);
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#buttons a {
+    display: block;
+}
+
+#buttons img {
+    width: 50px;
+    height: 50px;
+}
+
