@@ -1,4 +1,3 @@
-import React, { useRef, useEffect, useState } from 'react';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import TextCont from './components/text.js';
 import downloadFile from './components/file.js';
@@ -13,6 +12,8 @@ function App() {
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={0.5}>
           <div className="animation_layer parallax" id="logo"></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={0} speed={0.5}>
           <div id="buttons">
             <a href="https://www.linkedin.com/in/puuval/" target="_blank" rel="noopener noreferrer">
               <img src='./images/linkedin.png' alt="LinkedIn"/>

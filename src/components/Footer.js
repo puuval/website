@@ -3,7 +3,6 @@ import './Footer.css';
 import logo from '../images/favicon.ico';
 import downloadFile from './file.js';
 
-
 const Footer = () => {
   return (
     <section>
@@ -11,7 +10,7 @@ const Footer = () => {
         <img src={logo} alt="logo" />
         <div className="links">
           <div>
-            <h2>Platforms</h2>
+            <h2>Socials</h2>
             <a href="https://www.linkedin.com/in/puuval/" target="_blank" rel="noreferrer">LinkedIn</a>
             <a href="https://github.com/puuval" target="_blank" rel="noreferrer">GitHub</a>
             <a href="#" onClick={(event) => {
@@ -39,4 +38,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
