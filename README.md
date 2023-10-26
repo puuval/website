@@ -1,8 +1,8 @@
 # Website (Work in Progress)
 
-## Version: v1.2.0 (Stable)
+## Version: v1.2.1 (Stable)
 
-**Release Date:** 17th July 2023
+**Release Date:** 26th October 2023
 
 This repository contains the development of my personal webpage. Please note that the project is currently a work in progress and undergoing further development. 
 
