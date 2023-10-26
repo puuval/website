@@ -1,3 +1,4 @@
+/* General styling for body */
 body {
 	margin: 0;
 	background: #f7f7f7;
@@ -5,20 +6,22 @@ body {
 	color: #f7f7f7;
 }
 
-html,
-body {
+/* Ensure html and body take up full height */
+html, body {
 	height: 100%;
 }
 
+/* Fixed position section at the bottom of the page */
 section {
 	position: fixed;
 	left: 0;
-	bottom: 0px;
+	bottom: 0;
 	width: 100%;
 	padding-top: 20px;
 	background: transparent;
 }
 
+/* General footer styles */
 footer {
 	z-index: 3;
 	position: relative;
@@ -28,10 +31,12 @@ footer {
 	margin: 0 30px;
 }
 
+/* Style for img inside footer */
 footer > img {
-	margin-top: 10spx;
+	margin-top: 10px;
 }
 
+/* Override general footer styles for better mobile experience */
 footer {
 	color: #acc2dd;
 	margin: 0 auto;
@@ -39,6 +44,7 @@ footer {
 	padding: 10px;
 }
 
+/* Top footer styles */
 footer.top {
 	border-bottom: 2px solid #3a4f6a;
 	padding-bottom: 5px;
@@ -46,23 +52,27 @@ footer.top {
 	margin-top: -7.5px;
 }
 
+/* Bottom footer styles */
 footer.bottom {
 	padding: 7.5px 0;
 	justify-content: space-between;
 }
 
+/* Grid layout for links in top footer */
 footer.top .links {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 30px;
 }
 
+/* Individual div styles within grid */
 .links > div {
 	display: grid;
 	gap: 7.5px;
 	margin-bottom: 7.5px;
 }
 
+/* Footer headers */
 footer h2 {
 	margin: 0;
 	font-size: 16px;
@@ -70,72 +80,71 @@ footer h2 {
 	color: #f7f7f7;
 }
 
-.links a,
-.links p {
+/* Styles for anchors and paragraphs in links */
+.links a, .links p {
 	font-size: 16px;
 	color: #acc2dd;
 	text-decoration: none;
 }
 
+/* Hover effect for anchors */
 .links a:hover {
 	text-decoration: underline;
 }
 
+/* Remove margin for paragraphs in links */
 .links p {
 	margin: 0;
 }
 
+/* Legal text size */
 .legal {
 	font-size: 12px;
 }
 
-.legal > a {
-	margin: 0 4px;
-}
-
-.legal > span {
+/* Legal anchors and spans */
+.legal > a, .legal > span {
 	margin-right: 10px;
 }
 
-footer.bottom .links {
-	display: flex;
-	gap: 18px;
-}
+/* Mobile responsive rules */
 
-footer.bottom .links > a {
-	font-size: 24px;
-}
-
+/* General footer for medium devices */
 @media (max-width: 620px) {
 	footer {
 		flex-direction: column;
 	}
-
 	footer.bottom {
 		gap: 20px;
 		flex-direction: column-reverse;
 	}
 }
 
+/* General footer for small devices */
 @media (max-width: 420px) {
 	footer {
 		text-align: center;
 		align-items: center;
 	}
-
+	
+	/* Hide footer for certain medium devices */
 	@media (max-width: 768px) {
 		footer {
 			display: none;
 		}
 	}
-
+	
+	/* Single column for links in small devices */
 	footer.top .links {
 		grid-template-columns: 1fr;
 	}
+	
+	/* Center align items in bottom footer */
 	footer.bottom {
 		align-items: center;
 	}
 
+	/* Legal span styling for small devices */
 	.legal > span {
 		display: block;
 		margin-right: 0;

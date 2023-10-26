@@ -1,30 +1,35 @@
+/* Background styling for text container */
 #textcont-background {
 	background: linear-gradient(to bottom, #10041c, #220e27, #10041c);
 	animation: animate-background 40s infinite ease-in-out;
 	min-height: 100vh;
 	width: 100%;
-}
-
-#textcont-container {
+  }
+  
+  /* Container for textual content */
+  #textcont-container {
 	width: 70%;
 	margin: 0 auto;
 	padding-top: 70px;
-}
-
-#textcont-title {
+  }
+  
+  /* Title styling */
+  #textcont-title {
 	color: #d8d8d8;
 	font-size: 35px;
 	font-weight: 600;
 	font-family: "SIMPLIFICA-2";
-}
-
-#textcont-sub-title {
+  }
+  
+  /* Sub-title styling */
+  #textcont-sub-title {
 	color: #d8d8d8;
 	font-size: 30px;
 	font-weight: 600;
 	font-family: "SIMPLIFICA-2";
-}
+  }
 
+/* Text-container styling */
 #textcont-content {
 	color: #d8d8d8;
 	font-size: 27.5px;
@@ -61,14 +66,15 @@
 	position: fixed;
 }
 
+/* General background styling */
 #background {
-	background: linear-gradient(to bottom, transparent, #10041c),
-		url(../images/background.png);
+	background: linear-gradient(to bottom, transparent, #10041c), url(../images/background.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-}
-
-#logo {
+  }
+  
+  /* Logo styling */
+  #logo {
 	background-image: url(../images/logo.png);
 	width: 300px;
 	height: 300px;
@@ -78,9 +84,10 @@
 	top: 20%;
 	left: 50%;
 	transform: translateX(-50%);
-}
-
-#buttons {
+  }
+  
+  /* Buttons container styling */
+  #buttons {
 	z-index: 10;
 	padding: 55px;
 	display: flex;
@@ -90,33 +97,35 @@
 	top: 60%;
 	left: 50%;
 	transform: translateX(-50%);
-}
-
-#buttons a {
+  }
+  
+  #buttons a {
 	display: block;
-}
-
-#buttons img {
+  }
+  
+  #buttons img {
 	width: 50px;
 	height: 50px;
-}
-
-@media (max-width: 620px) {
+  }
+  
+  /* Media Query for smaller screen sizes */
+  @media (max-width: 620px) {
 	#textcont-container {
-		padding-top: auto;
-		padding-bottom: auto;
+	  padding-top: auto;
+	  padding-bottom: auto;
 	}
-
+  
 	#textcont-title {
-		font-size: 28px;
+	  font-size: 28px;
 	}
-
+  
 	#textcont-sub-title {
-		font-size: 24px;
+	  font-size: 24px;
 	}
-
+  
 	#textcont-content {
-		color: #d8d8d8;
-		font-size: 22px;
+	  color: #d8d8d8;
+	  font-size: 22px;
 	}
-}
+  }
+  

@@ -1,13 +1,20 @@
-@font-face {
-    font-family: "SIMPLIFICA";
-    src: local("SIMPLIFICA"),
-     url("./../fonts/SIMPLIFICA.ttf") format("truetype");
-    font-weight: bold;
-    }
-  
-    @font-face {
-      font-family: "SIMPLIFICA-2";
-      src: local("SIMPLIFICA-2"),
+/**
+ * SIMPLIFICA with bold weight and using local version.
+ */
+ @font-face {
+  font-family: "SIMPLIFICA";
+  src: local("SIMPLIFICA"),
        url("./../fonts/SIMPLIFICA.ttf") format("truetype");
-      font-weight: italic;
-      }
+  font-weight: bold;
+}
+
+/**
+ * SIMPLIFICA-2 with italic weight and using local version.
+ * Italicizing will be performed by browser.
+ */
+@font-face {
+  font-family: "SIMPLIFICA-2";
+  src: local("SIMPLIFICA-2"),
+       url("./../fonts/SIMPLIFICA.ttf") format("truetype");
+  font-weight: italic;
+}

@@ -10,7 +10,7 @@
 /build
 
 # deploying
-deploy.sh
+/.deploy.sh
 
 # misc
 .DS_Store
